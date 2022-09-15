@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Job Interview Questions & Answers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </header>
+    <main>
+        <section class="article">
+            <h2>What is the difference between Local Storage & Session Storage?</h2>
+            <p>Local Storage helps us store data on the client's computer. The data stored in local storage for lifetime
+                unless the user manually delete it.It does not expire even when the user closes the window or tab.</p>
+            <p>It is very similar to the local storage.Still, the main difference lies in the lifespan as it persists in
+                the browser until its current tab is on. Once you close the tab or terminate it, the data on session
+                storage also gets lost.</p>
+        </section>
+
+        <section class="article">
+            <h2>What is the difference between Local Scope and Global Scope?</h2>
+            <p>Global scope is the “root scope” which encloses all other code / scopes.In the browser it creates a
+                “window” object + relative pointer (this), in nodeJS the object is called “global” instead.</p>
+            <p>Local scopes: are nested execution contexts (sandboxes) within the global scope i.e. blocks of code
+                logically grouped by the parser.In Javascript there are only 3 ways scope can be created / is
+                implemented.
+                1. Within functions.
+                2. The catch block (in try… catch statements).
+                3. Closures i.e. execution context auto-generated in response to async code (e.g. callbacks, promises,
+                etc)
+            </p>
+        </section>
+
+        <section class="article">
+            <h2>How does the Event Loop works in JavaScript?</h2>
+            <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
+                a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
+            </p>
+            <p>The event queue is responsible for sending new functions to the stack for processing. It follows the
+                queue data structure to maintain the correct sequence in which all operations should be sent for
+                execution.</p>
+        </section>
+
+        <section class="article">
+            <h2>How does the Event Loop works in JavaScript?</h2>
+            <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
+                a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
+            </p>
+            <img src="js-event-loop.png" alt="">
+            <p>The event queue is responsible for sending new functions to the stack for processing. It follows the
+                queue data structure to maintain the correct sequence in which all operations should be sent for
+                execution.</p>
+        </section>
+
+
+        <section class="article">
+            <h2>How many ways to get undefined in Javascript?</h2>
+            <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
+                a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
+            </p>
+            <img src="js-event-loop.png" alt="">
+            <p>The event queue is responsible for sending new functions to the stack for processing. It follows the
+                queue data structure to maintain the correct sequence in which all operations should be sent for
+                execution.</p>
+        </section>
+    </main>
+    <footer>
+        <p>All Right Reserved &copy; 2022 | Speed Monster</p>
+    </footer>
+</body>
+</html>
