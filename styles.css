@@ -224,5 +224,24 @@ footer{
 }
 
 .article{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  margin-bottom: 50px;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.article h2{
+  margin-bottom: 15px;
+}
+
+.article img{
+  max-width: 100%;
+  margin: 20px 0;
+}
+main{
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 30px;
   background-color: #fff;
+ 
 }

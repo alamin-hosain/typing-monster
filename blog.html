@@ -16,7 +16,7 @@
     </header>
     <main>
         <section class="article">
-            <h2>What is the difference between Local Storage & Session Storage?</h2>
+            <h2>1. What is the difference between Local Storage & Session Storage?</h2>
             <p>Local Storage helps us store data on the client's computer. The data stored in local storage for lifetime
                 unless the user manually delete it.It does not expire even when the user closes the window or tab.</p>
             <p>It is very similar to the local storage.Still, the main difference lies in the lifespan as it persists in
@@ -25,7 +25,7 @@
         </section>
 
         <section class="article">
-            <h2>What is the difference between Local Scope and Global Scope?</h2>
+            <h2>2. What is the difference between Local Scope and Global Scope?</h2>
             <p>Global scope is the “root scope” which encloses all other code / scopes.In the browser it creates a
                 “window” object + relative pointer (this), in nodeJS the object is called “global” instead.</p>
             <p>Local scopes: are nested execution contexts (sandboxes) within the global scope i.e. blocks of code
@@ -39,7 +39,7 @@
         </section>
 
         <section class="article">
-            <h2>How does the Event Loop works in JavaScript?</h2>
+            <h2>3. How does the Event Loop works in JavaScript?</h2>
             <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
                 a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
             </p>
@@ -49,7 +49,7 @@
         </section>
 
         <section class="article">
-            <h2>How does the Event Loop works in JavaScript?</h2>
+            <h2>4. How does the Event Loop works in JavaScript?</h2>
             <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
                 a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
             </p>
@@ -62,13 +62,17 @@
 
         <section class="article">
             <h2>How many ways to get undefined in Javascript?</h2>
-            <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on
-                a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
-            </p>
-            <img src="js-event-loop.png" alt="">
-            <p>The event queue is responsible for sending new functions to the stack for processing. It follows the
-                queue data structure to maintain the correct sequence in which all operations should be sent for
-                execution.</p>
+            <p>8 Ways to get Undefine din Javascript</p>
+            <ol>
+                <li>Variable that is not initialized will get undefined</li>
+                <li>Function With NO Return</li>
+                <li>Parameter that is not passed will be undefined</li>
+                <li>If return has nothing on the right side will return undefined</li>
+                <li>Property that does not exists on an object will give undefined</li>
+                <li>Accessing array elements outside of the index range</li>
+                <li>Deleting an element inside an array</li>
+                <li>Set a value directly to undefined</li>
+            </ol>
         </section>
     </main>
     <footer>
