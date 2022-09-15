@@ -215,7 +215,7 @@ background-color: #eb6565;
 }
 
 footer{
-  background-color: #fff;
+  background-color: rgb(100, 99, 99);
   height: 100px;
   display: flex;
   justify-content: center;
@@ -223,6 +223,7 @@ footer{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   margin-top: 80px;
+  color: rgb(219, 216, 216);
 }
 
 .article{
