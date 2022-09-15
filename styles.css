@@ -243,5 +243,22 @@ main{
   margin: 0 auto;
   padding: 50px 30px;
   background-color: #fff;
- 
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 778px) {
+  main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-top: 40px;
+  }
+
+  .article{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
 }
